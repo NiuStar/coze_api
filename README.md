@@ -4,13 +4,22 @@
 参数：
 ```json
 {
-  "message": "写一个golang程序，使用gin框架+GORM+mysql写一个登录注册接口",
-  "id":"72139bd4a-4d6f-40ab-9b5d-dce56bd70c5c",
-   "sessionId": "6139bd4a-4d6f-40ab-9b5d-dce56bd70c5c",
-   "sender":"张三"
+	"bot_id": "7319498133556428806",
+	"local_message_id": "R55a6JfSBafgckKRzQS0Z",
+	"content_type": "text",
+	"query": "你好",
+	"extra": {},
+	"scene": 2,
+	"bot_version": "1708583912973",
+	"stream": true,
+	"chat_history": []
 }
 ```
-header中添加auth头，
+header中添加auth头，及coze的sessionId
+例如：
+<img width="982" alt="image" src="https://github.com/NiuStar/coze_api/assets/16755722/d767bd7e-c4f9-404c-a207-3caf69e80c1e">
+
+
 内测阶段，auth头请发送申请至yjkj02@gmail.com。
 目前不知道coze的请求上限，小范围试用，请见谅
 
